@@ -1,0 +1,22 @@
+.input-field {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  p {
+    color: var(--01, #070707);
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  input {
+    width: 500px;
+
+    padding: 10px 20px;
+
+    border-radius: 6px;
+    border: 1px solid var(--04, #9C9C9C);
+  }
+}

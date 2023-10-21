@@ -1,0 +1,52 @@
+.main-page {
+
+}
+.main-page__hr {
+  margin: 50px 0;
+
+  width: 100%;
+  height: 2px;
+  background: #9C9C9C;
+}
+
+.main-page__lecturers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.lecture-main {
+  width: 100%;
+}
+
+.lecture-main__preview {
+  width: 100%;
+  height: 197px;
+
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}
+.lecture-main__info {
+  margin-top: 10px;
+
+  span {
+    color: var(--04, #9C9C9C);
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  p {
+    color: var(--01, #070707);
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+  }
+}

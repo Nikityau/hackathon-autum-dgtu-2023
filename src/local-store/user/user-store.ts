@@ -1,11 +1,13 @@
 import {action, makeObservable, observable} from "mobx";
 
+export type Role = 'user' | 'moderator' | 'guest'
+
 type User = {
-    name: string, surname: string, avatar: string, role: string
+    name: string, surname: string, avatar: string, role: Role
 }
 
 export class UserStore {
-    role: string = ''
+    role: Role = 'user'
     avatar: string = ''
     name: string = ''
     surname: string = ''
@@ -19,7 +21,11 @@ export class UserStore {
             setUser: action
         })
 
-        this.role = localStorage.getItem('user-role')
+        this.role = localStorage.getItem('user-role') as Role
+
+        this.name = 'Александра'
+        this.surname = 'Андреева'
+        this.role = 'guest'
     }
 
     setUser({name, role,avatar, surname}:User) {

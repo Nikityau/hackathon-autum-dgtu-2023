@@ -11,7 +11,7 @@ const LectureInfo = ({timeEnd, timeStart, theme}:Props) => {
             <div className={'lecture__hr'}/>
             <div className={'lecture__info-wrapper'}>
                 <div className={'lecture__time'}>
-                    <span>{timeStart} - {timeEnd}</span>
+                    <span>{timeStart} - {timeEnd} | Анна Королева</span>
                 </div>
                 <div className={'lecture__theme'}>
                     <p>{theme}</p>

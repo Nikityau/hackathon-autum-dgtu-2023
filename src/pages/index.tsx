@@ -12,6 +12,8 @@ import Timetable from "./timetable";
 import Lecturers from "./lecturers";
 import Questions from "./questions";
 import QuestionPage from "./question-page";
+import OfferTheme from "./offer-theme";
+import OfferMan from "./offer-man";
 
 
 const AppRouter = () => {
@@ -24,6 +26,8 @@ const AppRouter = () => {
                 <Route path={'lecturers'} element={<Lecturers/>}/>
                 <Route path={'questions'} element={<Questions/>}/>
                 <Route path={'questions/:id'} element={<QuestionPage/>}/>
+                <Route path={'offer/meet-theme'} element={<OfferTheme/>}/>
+                <Route path={'offer/man'} element={<OfferMan/>}/>
 
                 <Route path={''} element={<Navigate to={'main'}/>}/>
             </Route>
