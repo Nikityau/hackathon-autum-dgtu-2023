@@ -1,0 +1,28 @@
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  .user-info__avatar {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user-info__data {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+
+    color: var(--01, #070707);
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+  }
+}

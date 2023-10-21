@@ -1,0 +1,31 @@
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  .nav-link__link {
+    color: var(--03, #6A6A6A);
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .nav-link__info-count {
+    padding: 4px;
+    border-radius: 50%;
+    background: #ECB300;
+
+    color: var(--, #FBFBFB);
+    font-family: Montserrat,sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+  }
+}
+
+.nav-link_active {
+  .nav-link__link {
+    color: var(--02, #383838);
+  }
+}

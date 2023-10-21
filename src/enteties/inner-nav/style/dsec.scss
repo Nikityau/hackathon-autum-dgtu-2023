@@ -1,0 +1,34 @@
+.inner-nav__descr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+
+  .inner-nav__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .inner-nav__text {
+    color: var(--03, #6A6A6A);
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+
+  .inner-nav__arrow {
+    svg {
+      transition: all .3s;
+    }
+  }
+
+  .inner-nav__arrow_open {
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+}

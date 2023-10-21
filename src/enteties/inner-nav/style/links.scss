@@ -1,0 +1,23 @@
+.inner-nav__links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding-top: 10px;
+  padding-left: 50px;
+
+
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+   a {
+     color: var(--03, #6A6A6A);
+   }
+
+  opacity: 0;
+}
+
+.inner-nav__links_open {
+  opacity: 1;
+}

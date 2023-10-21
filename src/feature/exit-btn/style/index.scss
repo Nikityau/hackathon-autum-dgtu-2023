@@ -1,0 +1,19 @@
+.exit-btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  .exit-btn__text {
+    color: var(--03, #6A6A6A);
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+  }
+}
+
+.exit-btn_down {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+}
