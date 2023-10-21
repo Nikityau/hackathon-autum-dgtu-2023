@@ -1,0 +1,20 @@
+.lectures-page {
+
+  .lecturers__list {
+    margin-top: 50px;
+
+    max-width: 800px;
+
+    height: 80vh;
+    overflow-y: scroll;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    &::-webkit-scrollbar {
+      display: none;
+
+    }
+  }
+}

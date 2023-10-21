@@ -1,0 +1,69 @@
+.lecturer {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.lecturer__avatar {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lecturer__name {
+  color: var(--01, #070707);
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.lecturer__info {
+  margin-top: 6px;
+
+  color: var(--01, #070707);
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.lecturer__descr {
+  margin-top: 20px;
+
+  color: var(--01, #070707);
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+
+  margin-bottom: 20px;
+}
+
+.lecturer__material-title {
+  color: var(--01, #070707);
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lecturer__materials {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.lecturer__material-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  color: var(--01, #070707);
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}

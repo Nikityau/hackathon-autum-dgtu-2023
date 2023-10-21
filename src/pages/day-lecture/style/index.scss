@@ -1,0 +1,71 @@
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  color: var(--03, #6A6A6A);
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.day-lecture {
+  max-width: 800px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.send-message {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  input {
+    width: 700px;
+
+    padding: 10px 12px;
+
+    color: var(--04, #9C9C9C);
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+    border-radius: 6px;
+    border: 1px solid var(--04, #9C9C9C);
+
+    outline: none;
+  }
+  .send-message__image {
+    padding: 8px;
+
+    border-radius: 50%;
+    background: #ECB300;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    cursor: pointer;
+  }
+}
+
+.day-lecture__question {
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+

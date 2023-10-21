@@ -10,6 +10,8 @@ import Main from "./main";
 import DayLecture from "./day-lecture";
 import Timetable from "./timetable";
 import Lecturers from "./lecturers";
+import Questions from "./questions";
+import QuestionPage from "./question-page";
 
 
 const AppRouter = () => {
@@ -20,6 +22,8 @@ const AppRouter = () => {
                 <Route path={'timetable'} element={<Timetable/>}/>
                 <Route path={'timetable/:date'} element={<DayLecture/>}/>
                 <Route path={'lecturers'} element={<Lecturers/>}/>
+                <Route path={'questions'} element={<Questions/>}/>
+                <Route path={'questions/:id'} element={<QuestionPage/>}/>
 
                 <Route path={''} element={<Navigate to={'main'}/>}/>
             </Route>

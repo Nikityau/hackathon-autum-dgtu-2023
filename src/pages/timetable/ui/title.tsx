@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Title = () => {
+type Props = {
+    title?: string
+}
+
+const Title = ({title = "Расписание"}:Props) => {
     return (
         <div className={'timetable-page__tittle'}>
-            <span>Расписание</span>
+            <span>{title}</span>
         </div>
     );
 };
