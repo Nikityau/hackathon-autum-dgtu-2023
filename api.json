@@ -1,0 +1,101 @@
+{
+  "me": {
+    "avatar": "mb poxyi",
+    "name": "",
+    "surname": "",
+    "role": "admin"
+  },
+  "timetable": {
+    "arr": [
+      {
+        "id": "",
+        "date": "",
+        "members": "massive userov",
+        "timeStart": "",
+        "timeEnd": "",
+        "theme": ""
+      }
+    ]
+  },
+  "timetable/:day(2023-11-4)": {
+    "data": {
+      "id": "",
+      "date": "",
+      "members": "massive userov",
+      "preview_img": "poxyi mb",
+      "timeStart": "",
+      "timeEnd": "",
+      "theme": "",
+      "lecturer": {
+        "avatar": "mb poxyi",
+        "name": "",
+        "surname": "",
+        "role": "admin",
+        "proffession": "psiholog",
+        "status": "Магистр психологии. Разбираюсь в семейных и личных проблемах, помогаю в развитии талантов, способностей, нахождении успеха. tipo takogo"
+      },
+      "materials": {
+        "array_urls": [
+          "https://psychojournal.ru/article/2385-kak-raspoznat-jadovitye-otnoshenija-vosem-priznakov-toksichnosti.html",
+          "https://psychojournal.ru/article/2385-kak-raspoznat-jadovitye-otnoshenija-vosem-priznakov-toksichnosti.html",
+          "..."
+        ]
+      },
+      "questions": [
+        {
+          "avatar": "mb poxyi",
+          "name": "",
+          "surname": "",
+          "date": "",
+          "time": "",
+          "question": ""
+        }
+      ],
+      "ссылка где лекция будет": {
+
+      }
+    }
+  },
+  "запись на лекцию": {
+
+  },
+  "авторизация": {
+
+  },
+  "оставить вопрос к лекции ака коммент": {
+  },
+  "предложить тему встречи": {
+    "input_data": {
+      "theme": "sdf;',sdfg,dgfl"
+    }
+  },
+  "предложить специалиста": {
+    "input_data": {
+      "name": "",
+      "surname": "",
+      "patronymic": "",
+      "specialnost": "",
+      "link to raboti": "",
+      "link to social network": ""
+    }
+  },
+  "для модераторов": {
+    "добавить пользователя": {
+      "input_data": {
+        "name": "",
+        "surname": "",
+        "patronymic": "",
+        "specialnost": ""
+      }
+    },
+    "удалить пользователя": {
+
+    },
+    "добавить лектора": {
+
+    },
+    "убрать лектора": {
+
+    }
+  }
+}

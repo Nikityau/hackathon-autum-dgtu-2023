@@ -1,0 +1,38 @@
+.timetable-bar {
+  .timetable-bar__container {
+    padding-top: 60px;
+    padding-right: 60px;
+  }
+
+  .timetable-bar__lectures {
+    margin-top: 40px;
+
+    .timetable-page__tittle {
+      font-size: 16px;
+    }
+
+    .timetable-page__lectures {
+      height: 400px;
+
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    .lecture {
+      .lecture__info-wrapper {
+        .date-member__date {
+          font-size: 14px;
+        }
+        .lecture__time {
+          font-size: 14px;
+        }
+        .lecture__theme {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

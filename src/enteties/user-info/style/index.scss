@@ -17,12 +17,26 @@
   .user-info__data {
     display: flex;
     gap: 7px;
-    align-items: center;
 
     color: var(--01, #070707);
     font-family: Montserrat, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
+
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .user-info__wrapper {
+    display: flex;
+    gap: 7px;
+  }
+
+  .user-info__role {
+    color: var(--03, #6A6A6A);
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
   }
 }

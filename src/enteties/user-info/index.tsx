@@ -15,8 +15,13 @@ const UserInfo = ({userSurname, userName, image}:Props) => {
                 <img src={image} alt={'avatar'}/>
             </div>
             <div className={'user-info__data'}>
-                <span>{userSurname}</span>
-                <span>{userName}</span>
+               <div className={'user-info__wrapper'}>
+                   <span>{userSurname}</span>
+                   <span>{userName}</span>
+               </div>
+               <div className={'user-info__role'}>
+                   <span>user</span>
+               </div>
             </div>
         </div>
     );

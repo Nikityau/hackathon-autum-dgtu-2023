@@ -1,0 +1,20 @@
+.timetable-page {
+  width: 100%;
+
+  .timetable-page__tittle {
+    color: var(--01, #070707);
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .timetable-page__lectures {
+    margin-top: 42px;
+    max-width: 820px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}

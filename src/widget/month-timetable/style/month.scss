@@ -1,0 +1,13 @@
+.month-timetable__month {
+  color: var(--01, #070707);
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+
+  margin-bottom: 30px;
+}

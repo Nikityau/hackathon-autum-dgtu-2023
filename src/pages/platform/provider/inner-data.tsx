@@ -3,9 +3,9 @@ import {Outlet} from "react-router-dom";
 
 const InnerData = () => {
     return (
-        <>
-         <Outlet/>
-        </>
+        <div className={'inner-data'}>
+            <Outlet/>
+        </div>
     );
 };
 

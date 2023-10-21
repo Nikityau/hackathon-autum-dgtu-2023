@@ -1,6 +1,6 @@
 import { eachDayOfInterval } from "date-fns";
 import { action, computed, makeObservable, observable } from "mobx";
-import { datesCompare } from "../../shared/helpers/dates/dates-compare";
+import {datesCompare} from "../../shared/helpers/dates/date-compare";
 
 export type TimetableType = "month" | "week" | "day"
 
@@ -214,4 +214,4 @@ export class TimetableStore {
   }
 }
 
-export const lecturerTimetable = new TimetableStore("lecturer");
+export const sch = new TimetableStore("lecturer");

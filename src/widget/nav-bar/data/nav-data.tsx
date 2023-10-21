@@ -20,7 +20,7 @@ export const navData: NavData[] = [
     },
     {
         id: nanoid(),
-        link: 'schedule',
+        link: 'timetable',
         title: 'Расписание',
         icon: sch_img,
         infoCount: 10

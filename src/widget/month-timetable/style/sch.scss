@@ -1,0 +1,30 @@
+.month-timetable {
+  width: 100%;
+
+  .month-timetable__month {
+
+  }
+
+  .month-timetable__dates {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    gap: 20px;
+  }
+}
+
+.date-num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--01, #070707);
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+  cursor: pointer;
+}
+.date-num_month_another {
+  color: var(--03, #6A6A6A);
+}
