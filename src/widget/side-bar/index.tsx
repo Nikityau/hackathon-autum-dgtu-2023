@@ -21,7 +21,7 @@ const SideBar = () => {
                     userName={'Александра'}
                 />
                 <NavBar user={userStore}/>
-                <Link to={'oggetto/well-being-platform/auth'}>
+                <Link to={'/oggetto/well-being-platform/auth'}>
                     <ExitBtn
                         classNames={'exit-btn_down'}
                         icon={''}

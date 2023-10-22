@@ -25,7 +25,7 @@ export class UserStore {
 
         this.name = 'Александра'
         this.surname = 'Андреева'
-        this.role = 'guest'
+        this.role = 'moderator'
     }
 
     setUser({name, role,avatar, surname}:User) {

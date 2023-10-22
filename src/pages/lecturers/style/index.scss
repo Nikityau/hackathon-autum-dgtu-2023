@@ -18,3 +18,23 @@
     }
   }
 }
+
+.lecturer__moderator-btns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  padding-left: 100px;
+
+  color: var(--02, #383838);
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.lecturer__moderator-btn_delete {
+  color: #E26060;
+}

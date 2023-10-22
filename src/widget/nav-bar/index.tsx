@@ -1,5 +1,5 @@
 import React from 'react';
-import {navData} from "./data/nav-data";
+import {modeerNavData, navData} from "./data/nav-data";
 import Nav from "../../enteties/nav";
 
 import InnerNav from "../../enteties/inner-nav";
@@ -27,6 +27,24 @@ const NavBar = observer(({user}:Props) => {
                             title={d.title}
                             link={d.link}
                             infoCount={0}
+                        />
+                    ))
+                }
+            </div>
+        )
+    }
+
+    if(user.role == 'moderator') {
+        return (
+            <div className={'nav-bar'}>
+                {
+                    modeerNavData.map(d => (
+                        <Nav
+                            key={d.id}
+                            icon={d.icon}
+                            title={d.title}
+                            link={d.link}
+                            infoCount={d.infoCount}
                         />
                     ))
                 }

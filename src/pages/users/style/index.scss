@@ -1,0 +1,66 @@
+.users-page {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.users-page__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.user__avatar {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.user__info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.user__name {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    &:nth-child(1) {
+      color: var(--01, #070707);
+      font-family: Montserrat, sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+    }
+
+    &:nth-child(2) {
+      color: var(--01, #070707);
+      font-family: Montserrat, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+    }
+  }
+}
+
+.user__btn {
+  color: #E26060;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}

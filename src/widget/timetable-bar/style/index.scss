@@ -55,3 +55,30 @@
   flex-direction: column;
   gap: 5px;
 }
+
+.lecture-statistic {
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  color: var(--01, #070707);
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.lecture-statistic__mark {
+
+}
+
+.lecture-statistic__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  padding-top: 10px;
+  padding-left: 60px;
+}

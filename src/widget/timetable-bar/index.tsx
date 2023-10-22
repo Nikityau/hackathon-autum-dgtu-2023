@@ -6,6 +6,8 @@ import LecturesProvider from "./provider/lectures-provider";
 import DayLectureProvider from "./provider/day-lecture.provider";
 
 import './style/index.scss'
+import ModerStatProvider from "./provider/moder-stat.provider";
+import {userStore} from "../../local-store/user/user-store";
 
 const TimetableBar = () => {
     return (
@@ -14,6 +16,7 @@ const TimetableBar = () => {
                 <MonthTimetable sch={sch}/>
                 <LecturesProvider/>
                 <DayLectureProvider/>
+                <ModerStatProvider user={userStore}/>
             </div>
         </div>
     );

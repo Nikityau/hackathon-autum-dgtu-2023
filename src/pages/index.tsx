@@ -14,6 +14,10 @@ import Questions from "./questions";
 import QuestionPage from "./question-page";
 import OfferTheme from "./offer-theme";
 import OfferMan from "./offer-man";
+import {userStore} from "../local-store/user/user-store";
+import ModerLecturer from "./moder-lecturer";
+import UsersPage from "./users";
+import UsersAdd from "./users-add";
 
 
 const AppRouter = () => {
@@ -24,10 +28,15 @@ const AppRouter = () => {
                 <Route path={'timetable'} element={<Timetable/>}/>
                 <Route path={'timetable/:date'} element={<DayLecture/>}/>
                 <Route path={'lecturers'} element={<Lecturers/>}/>
-                <Route path={'questions'} element={<Questions/>}/>
+                <Route path={'lecturers/edit/:id'} element={<ModerLecturer/>}/>
+                <Route path={'lecturers/add'} element={<ModerLecturer/>}/>
+                <Route path={'questions'} element={<Questions user={userStore}/>}/>
+                <Route path={'questions/create'} element={'question create'}/>
                 <Route path={'questions/:id'} element={<QuestionPage/>}/>
                 <Route path={'offer/meet-theme'} element={<OfferTheme/>}/>
                 <Route path={'offer/man'} element={<OfferMan/>}/>
+                <Route path={'users'} element={<UsersPage/>}/>
+                <Route path={'users/add'} element={<UsersAdd/>}/>
 
                 <Route path={''} element={<Navigate to={'main'}/>}/>
             </Route>
